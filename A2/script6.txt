@@ -1,0 +1,21 @@
+======================================================
+Filename: script6.txt
+Running Test: [LClassB;@74a14482
+Recursive: true
+CLASS
+Class: [LClassB;
+  Component Type: class ClassB
+  Length: 12
+  Entries->
+   Value: null
+   Value: null
+   Value: null
+   Value: null
+   Value: null
+   Value: null
+   Value: null
+   Value: null
+   Value: null
+   Value: null
+   Value: null
+   Value: null======================================================
