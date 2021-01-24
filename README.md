@@ -38,3 +38,11 @@ The following information is displayed for the object:
       i. If the field is an object reference, and recursive is set to false, then simply print out the “reference value directly (this will be the name of the object’s class plus the object’s “identity hash code” ex. **java.lang.Object@7d4991ad)**.\
       ii. If the field is an object reference, and recursive is set to true, then immediately recurse on the object.
       
+## A3 - Reflective Object Serialization
+
+**Goal** - Using reflection to serialize an object to JSON and then de-serialize from JSON back to an object
+
+**Technology Used** - Java, JSON, Git, Gitlab, Reflection
+
+**Description** - The goal of this assignment is to create two programs (that could be run on two separate computers) that communicate with each other over a network connection. The **Sender** program will create an **object** (that may have other internally referenced objects). **Sender** will **serialize** each object created into a **JSON** String, and then send this **JSON** String as a stream of bytes to the **Receiver** program using a socket connection. The **Receiver** program will convert the incoming byte stream into a **JSON** String, **deserialize** the **JSON** into an **object**, and **display** the **object** to screen.
+      
